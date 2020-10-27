@@ -1,0 +1,27 @@
+.wrapper_notification_modal{
+    padding: 30px;
+    text-align: center;
+}
+.wrapper_notification_modal img{
+    margin-bottom: 3rem;
+}
+.wrapper_notification_modal h3{
+    margin-top: -1rem;
+}
+
+
+.botao-titulo{
+    width: 200px;
+    height: 40px;
+    background-color: #3a7ace;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    transition: all 0.4s;
+    
+}
+
+.botao-titulo:hover{
+    box-shadow: 2px 2px 2px 2px #6422b9;
+}

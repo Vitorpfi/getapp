@@ -1,0 +1,28 @@
+
+    <nav class="navbar navbar-expand-lg ">
+        <a href="/">
+        <img class="imagem-navbar" src="/img/getparty.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><img class="menu-icon img-fluid" src="img/multimidia.svg"
+                    alt=""></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto  navbar-design">
+                <a class="nav-item nav-link  navbar-individual " href="/">Home <span
+                        class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link navbar-individual " href="/categorias">Profissões</a>
+                <a class="nav-item nav-link navbar-individual " href="/ultimas">Últimas publicações</a>
+                {{#if user}}
+                  <a class="nav-item nav-link navbar-individual " href="/usuarios/logout">Sair</a>
+                  <button class="botao-nav text-center">
+                  <a class="nav-item  txt-botao-nav " href="/admin/add">POSTAR</a>
+                  </button>
+                {{else}}
+                <a class="nav-item nav-link navbar-individual " href="/usuarios/login">Login</a>
+                <a class="nav-item nav-link navbar-individual " href="/usuarios/registro">Registro</a>
+                {{/if}}
+            </div>
+        </div>
+    </nav>

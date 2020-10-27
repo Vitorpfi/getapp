@@ -1,0 +1,62 @@
+
+
+
+.navbar-design{
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+
+.navbar-individual{
+    color: black;
+}
+
+
+.navbar-individual:hover{
+   
+   color: #3a7ace;
+
+}
+
+
+
+.imagem-navbar{
+    width: 140px;
+    margin-left: 40px;
+}
+
+.botao-nav{
+    width: 100px;
+    height: 40px;
+     color:white;
+     background-color: #3a7ace ;
+     border-radius: 10px;
+     border: none;
+     margin-right: 10px;
+     margin-left: 10px;
+}
+
+.botao-nav:hover{
+    width: 102px;
+    height: 42px;
+}
+
+
+.txt-botao-nav{
+    color: white;
+}
+
+.txt-botao-nav:hover{
+    color:white;
+    text-decoration: none;
+}
+
+
+.green{
+    color: green;
+}
+
+
+/*louco*/
+
+

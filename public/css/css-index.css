@@ -1,0 +1,250 @@
+
+
+.container-externo{
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 20px 1px rgba(2, 2, 2, 0.548);
+    -moz-box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.568);
+    box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.582);
+
+}
+
+
+
+.conteudo-1{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    
+    
+}
+
+.titulo{
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Anton', sans-serif; 
+}
+
+.subtitulo{
+   
+    padding-right: 50px;
+    font-size: 30px;
+    color: #808080;
+}
+
+
+.botao-titulo{
+    width: 200px;
+    height: 40px;
+    background-color: #3a7ace;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    transition: all 0.4s;
+    
+}
+
+.botao-titulo:hover{
+    box-shadow: 2px 2px 2px 2px #6422b9;
+}
+
+
+.padrao-hr{
+    width: 100px;
+    background-color: #3a7ace;
+    height: 2px;
+    margin-left: 0px;
+}
+
+
+@media(max-width:1024px){
+    .titulo{
+        padding-top: 0px;
+        padding-right: 50px;
+        font-size: 36px;
+        font-weight: 300;
+        font-family: 'Anton', sans-serif; 
+    }
+    
+
+    
+.conteudo-1{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.botao-titulo{
+    width: 200px;
+    height: 40px;
+    background-color: #3a7ace;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    color: white;
+    transition: all 0.4s;
+    margin-bottom: 50px;
+    
+}
+
+}
+
+
+
+
+
+
+
+.title{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+
+.title-hr{
+    width: 100px;
+    background-color: #3a7ace;
+    height: 2px;
+}
+
+.hr-separacao{
+    background-color: #ccc;
+    margin-top: 80px;
+}
+
+.imagens-logos{
+    width: 200px;
+    height: 200px;
+}
+
+
+.background-etapas{
+    background-color: #3a7ace;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin-bottom: 4rem;
+
+}
+
+
+.background-inside{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.texto-titulo-etapas{
+    color: white;
+}
+
+
+.borda-profissional{
+    
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 20px 1px rgba(175, 175, 175, 0.548);
+    -moz-box-shadow: 0px 4px 20px 1px rgba(139, 139, 139, 0.568);
+    box-shadow: 0px 4px 20px 1px rgba(116, 116, 116, 0.582);
+}
+
+
+.bloco-de-profissoes{
+    width: 150px;
+
+}
+
+.txt-profissoes{
+    border-top: 3px solid #76a7e6;
+    text-align: center;
+    width: 140px;
+
+}
+
+
+
+
+.box-profissionais{
+    border: 2px solid #97a4c0;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 4px 20px 1px rgba(175, 175, 175, 0.548);
+    -moz-box-shadow: 0px 4px 20px 1px rgba(139, 139, 139, 0.568);
+    box-shadow: 0px 4px 20px 1px rgba(116, 116, 116, 0.582);
+    padding: 20px;
+}
+
+
+
+.box-profissionais:hover{
+    border: 2px solid #4180d3;
+
+}
+
+
+
+
+/* footer */
+.footer{
+    padding: 40px;
+    background-color: #f2f2f2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-1 h2{
+    color: #3a7ace;
+}
+/* footer menu */
+.footer-2{
+    padding: 10px;
+    color: #3a7ace;
+    border-left: 0.5px solid rgb(110, 110, 110);
+
+}
+.footer-2 ul{
+    list-style:none;
+}
+.footer-2 ul li{
+    font-size: 17px;
+    margin-bottom: 5px;
+
+}
+.footer-2 h4{
+    letter-spacing: 3px;
+
+}
+
+.footer-2 ul li a{
+    color: black;
+    text-decoration: none;
+}
+/* footer redes socias */
+.footer-3{
+    padding: 10px;
+    color: #3a7ace;
+    border-left: 0.5px solid rgb(112, 112, 112);
+}
+.footer-3 ul{
+    list-style:none;
+}
+.footer-3 ul li{
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.footer-3 ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nomes {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nomes p{
+
+    margin-bottom: -1%;
+}
+
+/* fim footer */

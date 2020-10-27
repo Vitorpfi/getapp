@@ -1,0 +1,134 @@
+{{!-- 
+<h3>Crie sua conta hoje!</h3>
+<div class="card">
+    <div class="card-body">
+        <form action="" method="POST">
+            <label for="nome">Nome:</label>
+                <input type="text" name="nome" class="form-control" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="form-control" required>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" class="form-control" required>
+                <label for="senha2">Repita sua senha:</label>
+                <input type="password" name="senha2" class="form-control" required>
+                <button type="submit" class="btn btn-success mt-4">Criar conta</button>
+        </form>
+    </div>
+</div> --}}
+
+
+<link rel="stylesheet" href="/css/css-cadastro.css">
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+{{#each erros}}
+<div class="alert alert-danger">{{texto}}</div>
+{{else}}
+{{/each}}
+<img class="wave" src="/img/wave.png">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="img mr-5">
+                <img src="/img/bgp.svg">
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+
+            <div class="login-content ml-5">
+                <form action="" class="ml-5" method="POST">
+                    <img src="/img/avatar.svg">
+                    <h2 class="title">Cadastro</h2>
+
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="div">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" class="input" required>
+
+                        </div>
+                    </div>
+                    <div class="input-div box">
+                        <div class="i">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        {{!-- <div class="div">
+						<h5>Sobrenome</h5>
+						<input type="sobrenome" class="input">
+					</div>
+				</div> 
+  
+				<div class="input-div box">
+					<div class="i">
+						<i class="fas fa-envelope"></i>
+					</div> --}}
+                        <div class="div">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" class="input" required>
+                        </div>
+                    </div>
+
+                    <div class="input-div box">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <label for="senha">Senha</label>
+                            <input type="password" name="senha" class="input" required>
+                        </div>
+                    </div>
+                    <div class="input-div box">
+                        <div class="i">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <div class="div">
+                            <label for="senha2">Repita sua senha:</label>
+                            <input type="password" name="senha2" class="input" required>
+                        </div>
+                    </div>
+                    <!-- <div class="input-div box">
+					<div class="i">
+						<i class="fas fa-city"></i>
+					</div>
+					<div class="div">
+						<h5>Estado/Cidade</h5>
+						<input type="cidade" class="input">
+					</div>
+				</div>
+				<div class="input-div box">
+					<div class="i">
+						<i class="fas fa-calendar-alt"></i>
+					</div>
+					<div class="div">
+						<h5>Data de nascimento</h5>
+						<input type="data-de-nascimento" class="input">
+					</div>
+				</div>
+				<div class="input-div box">
+					<div class="i">
+						<i class="fas fa-mobile-alt"></i>
+					</div>
+					<div class="div">
+						<h5>Telefone</h5>
+						<input type="telefone" class="input">
+					</div>
+				</div>
+ -->
+
+
+
+                    <!-- <a href="#">Esqueceu a senha?</a> -->
+                    <button type="submit" class="btn mt-4">Criar conta</button>
+                    <!-- <h5 class="mt-2">Não possui conta?</h5><a href="">Cadastrar-se</a> -->
+
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/js/main.js"></script>

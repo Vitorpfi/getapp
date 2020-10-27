@@ -1,0 +1,41 @@
+<div class="container">
+
+<h2>Lista de Postagens</h2>
+<hr>
+<a href="/admin/postagens/add">
+<button class="btn btn-success">Nova Postagem</button>
+</a> 
+
+{{#each postagens}}
+    <div class="card mt-4">
+        <div class="card-body">
+            <h4>
+            {{titulo}}
+            </h4>
+            <h5>Por hora de serviço: <span class="green"> R${{valor}}</span></h5>
+            <p>
+                Cidade, Estado:
+            {{descricao}} 
+            </p> 
+            <p>
+                Diferencial no serviço:
+            {{conteudo}} 
+            </p> 
+            <small>
+                Data:
+                {{data}}
+            </small>
+            <small>
+                <br>
+                Profissão:
+                {{categoria.nome}}
+            </small><br>
+
+        </div>
+    </div>
+
+{{else}}
+<p>Nenhuma postagem registrada</p>
+{{/each}}
+
+</div>

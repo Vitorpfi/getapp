@@ -1,0 +1,34 @@
+<div class="container">
+
+{{#each erros}}
+    <div class="alert alert-danger">{{texto}}</div>
+    {{else}}
+{{/each}}
+<div class="card">
+    <div class="card-body">
+        <h4>Editar postagem</h4>
+        <form action="/admin/postagem/edit" method="POST" >
+        <input type="hidden" value="{{postagem._id}}" name="id">
+            <label for="titulo">Nome:</label>
+            <input type="text" name="titulo" class="form-control" value="{{postagem.titulo}}" id="" required>
+            <label for="slug">Seu RG:</label>
+            <input type="text" name="slug" id="" class="form-control" value="{{postagem.slug}}" required>
+            <label for="valor">Valor por hora de serviço:</label>
+            <input type="text" name="valor" id="" class="form-control" placeholder="R$" required>
+            <label for="descricao">Estado e Cidade:</label>
+            <input type="text" name="descricao" required class="form-control" value="{{postagem.descricao}}">
+            <label for="conteudo">Seu diferencial no serviço:</label>
+            <textarea name="conteudo" class="form-control " required >{{postagem.conteudo}}</textarea>
+            <label for="categoria">Profissão que irá atuar::</label>
+            <select name="categoria" class="mt-2 custom-select" id="">
+                {{#each categorias}}
+                <option value="{{_id}}">{{nome}}</option>
+                {{else}}
+                <option value="0">Nenhuma profissão registrada</option>
+                {{/each}}
+            </select> <br>
+            <button  class="btn btn-success mt-4" type="submit">Editar postagem</button>
+        </form>
+    </div>
+</div>
+</div>

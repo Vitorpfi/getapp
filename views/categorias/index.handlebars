@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/css-index.css">
+<div class="container mt-5">
+    <h4>Profissões disponiveis:</h4>
+
+    <div class="row text-center mt-3  ">
+
+        
+        {{#each categorias}}
+
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-5">
+            <a href="/categorias/{{slug}}">
+                <div class="box-profissionais">
+{{!-- <img class="img-fluid bloco-de-profissoes " src="/img/banda.svg" alt=""> --}}
+                    <hr class="txt-profissoes">
+                    <h5 class="">{{nome}}</h5>
+
+                    <hr class="txt-profissoes">
+                </div>
+            </a>
+        </div>
+        {{else}}
+
+        {{/each}}
+     
+
+    </div>
+</div>
