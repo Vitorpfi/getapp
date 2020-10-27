@@ -46,7 +46,7 @@ const db = require("./config/db")
     app.engine('handlebars', handlebars({defaultLayout: 'main'}))
     app.set('view engine', 'handlebars');
     //Mongoose
-       mongoose.connect(db.mongoURI, {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
+       mongoose.connect("mongodb+srv://vitinho:vitortcc@cluster0.bhgpv.mongodb.net/getapp?retryWrites=true&w=majority", {useNewUrlParser: true, useUnifiedTopology: true}).then(() => {
            console.log("Conectado ao mongo")
        }).catch((err) => {
            console.log("errooooorrr" + err)
